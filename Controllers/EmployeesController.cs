@@ -25,9 +25,16 @@ namespace EmployeeBackOffice.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetEmployeeById(string id)
+        [Route("{id:guid}")]
+        public IActionResult GetEmployeeById(Guid id)
         {
-            return Ok(dbContext.Employees.ToList());
+            var employeeFound = dbContext.Employees.Find(id);
+            if (employeeFound == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(employeeFound);
         }
 
         [HttpPost]
@@ -47,6 +54,8 @@ namespace EmployeeBackOffice.Controllers
             return Ok(employeeEntity);
 
         }
+
+        
 
       
        
