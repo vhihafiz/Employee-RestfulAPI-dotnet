@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmployeeBackOffice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b3cd1c0252da4745a302bbe2f71bcabffba64bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2888e75ce55041d8811c9296b2a4442f56855f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmployeeBackOffice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmployeeBackOffice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
